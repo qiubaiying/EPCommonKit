@@ -35,6 +35,29 @@
 		07300EFB220288FE0014AAF4 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EE1220288FE0014AAF4 /* TAAnimatedDotView.m */; };
 		07300EFC220288FE0014AAF4 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EE2220288FE0014AAF4 /* TAAbstractDotView.m */; };
 		07300EFD220288FE0014AAF4 /* LLFullScreenAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EE8220288FE0014AAF4 /* LLFullScreenAdView.m */; };
+		07300F5D2202DD810014AAF4 /* YBImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F212202DD810014AAF4 /* YBImageBrowser.m */; };
+		07300F5E2202DD810014AAF4 /* YBVideoBrowseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F2A2202DD810014AAF4 /* YBVideoBrowseCell.m */; };
+		07300F5F2202DD810014AAF4 /* YBVideoBrowseActionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F2C2202DD810014AAF4 /* YBVideoBrowseActionBar.m */; };
+		07300F602202DD810014AAF4 /* YBVideoBrowseTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F302202DD810014AAF4 /* YBVideoBrowseTopBar.m */; };
+		07300F612202DD810014AAF4 /* YBVideoBrowseCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F312202DD810014AAF4 /* YBVideoBrowseCellData.m */; };
+		07300F622202DD810014AAF4 /* YBImageBrowserProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F342202DD810014AAF4 /* YBImageBrowserProgressView.m */; };
+		07300F632202DD810014AAF4 /* YBImageBrowserToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F352202DD810014AAF4 /* YBImageBrowserToolBar.m */; };
+		07300F642202DD810014AAF4 /* YBImageBrowserTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F392202DD810014AAF4 /* YBImageBrowserTipView.m */; };
+		07300F652202DD810014AAF4 /* YBImageBrowserSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F3B2202DD810014AAF4 /* YBImageBrowserSheetView.m */; };
+		07300F662202DD810014AAF4 /* YBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F3D2202DD810014AAF4 /* YBImage.m */; };
+		07300F672202DD810014AAF4 /* YBImageBrowseCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F3E2202DD810014AAF4 /* YBImageBrowseCellData.m */; };
+		07300F682202DD810014AAF4 /* YBImageBrowseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F432202DD810014AAF4 /* YBImageBrowseCell.m */; };
+		07300F692202DD810014AAF4 /* YBIBWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F492202DD810014AAF4 /* YBIBWebImageManager.m */; };
+		07300F6A2202DD810014AAF4 /* YBIBFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F4D2202DD810014AAF4 /* YBIBFileManager.m */; };
+		07300F6B2202DD810014AAF4 /* YBIBCopywriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F4E2202DD810014AAF4 /* YBIBCopywriter.m */; };
+		07300F6C2202DD810014AAF4 /* YBIBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F4F2202DD810014AAF4 /* YBIBUtilities.m */; };
+		07300F6D2202DD810014AAF4 /* YBIBLayoutDirectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F502202DD810014AAF4 /* YBIBLayoutDirectionManager.m */; };
+		07300F6E2202DD810014AAF4 /* YBIBPhotoAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F512202DD810014AAF4 /* YBIBPhotoAlbumManager.m */; };
+		07300F6F2202DD810014AAF4 /* YBIBTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F532202DD810014AAF4 /* YBIBTransitionManager.m */; };
+		07300F702202DD810014AAF4 /* YBIBGestureInteractionProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F542202DD810014AAF4 /* YBIBGestureInteractionProfile.m */; };
+		07300F712202DD810014AAF4 /* YBImageBrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F562202DD810014AAF4 /* YBImageBrowserView.m */; };
+		07300F722202DD810014AAF4 /* YBImageBrowserViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300F5A2202DD810014AAF4 /* YBImageBrowserViewLayout.m */; };
+		07300F732202DD810014AAF4 /* YBImageBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 07300F5C2202DD810014AAF4 /* YBImageBrowser.bundle */; };
 		4808C58BE5E12F46BE112313 /* libPods-ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C3D3499A8B71D4BF73B6B8 /* libPods-ExampleTests.a */; };
 		F693B9599899288E09E2B050 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90696F5A89B593D57BCBF6E3 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
@@ -106,6 +129,60 @@
 		07300EE5220288FE0014AAF4 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
 		07300EE7220288FE0014AAF4 /* LLFullScreenAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFullScreenAdView.h; sourceTree = "<group>"; };
 		07300EE8220288FE0014AAF4 /* LLFullScreenAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFullScreenAdView.m; sourceTree = "<group>"; };
+		07300F212202DD810014AAF4 /* YBImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageBrowser.m; sourceTree = "<group>"; };
+		07300F232202DD810014AAF4 /* YBImageBrowserSheetViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserSheetViewProtocol.h; sourceTree = "<group>"; };
+		07300F242202DD810014AAF4 /* YBImageBrowserCellDataProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserCellDataProtocol.h; sourceTree = "<group>"; };
+		07300F252202DD810014AAF4 /* YBImageBrowserToolBarProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserToolBarProtocol.h; sourceTree = "<group>"; };
+		07300F262202DD810014AAF4 /* YBImageBrowserDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserDataSource.h; sourceTree = "<group>"; };
+		07300F272202DD810014AAF4 /* YBImageBrowserCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserCellProtocol.h; sourceTree = "<group>"; };
+		07300F282202DD810014AAF4 /* YBImageBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserDelegate.h; sourceTree = "<group>"; };
+		07300F2A2202DD810014AAF4 /* YBVideoBrowseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBVideoBrowseCell.m; sourceTree = "<group>"; };
+		07300F2B2202DD810014AAF4 /* YBVideoBrowseCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBVideoBrowseCellData.h; sourceTree = "<group>"; };
+		07300F2C2202DD810014AAF4 /* YBVideoBrowseActionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBVideoBrowseActionBar.m; sourceTree = "<group>"; };
+		07300F2D2202DD810014AAF4 /* YBVideoBrowseTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBVideoBrowseTopBar.h; sourceTree = "<group>"; };
+		07300F2E2202DD810014AAF4 /* YBVideoBrowseCellData+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBVideoBrowseCellData+Internal.h"; sourceTree = "<group>"; };
+		07300F2F2202DD810014AAF4 /* YBVideoBrowseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBVideoBrowseCell.h; sourceTree = "<group>"; };
+		07300F302202DD810014AAF4 /* YBVideoBrowseTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBVideoBrowseTopBar.m; sourceTree = "<group>"; };
+		07300F312202DD810014AAF4 /* YBVideoBrowseCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBVideoBrowseCellData.m; sourceTree = "<group>"; };
+		07300F322202DD810014AAF4 /* YBVideoBrowseActionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBVideoBrowseActionBar.h; sourceTree = "<group>"; };
+		07300F342202DD810014AAF4 /* YBImageBrowserProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageBrowserProgressView.m; sourceTree = "<group>"; };
+		07300F352202DD810014AAF4 /* YBImageBrowserToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageBrowserToolBar.m; sourceTree = "<group>"; };
+		07300F362202DD810014AAF4 /* YBImageBrowserTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserTipView.h; sourceTree = "<group>"; };
+		07300F372202DD810014AAF4 /* YBImageBrowserSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserSheetView.h; sourceTree = "<group>"; };
+		07300F382202DD810014AAF4 /* YBImageBrowserProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserProgressView.h; sourceTree = "<group>"; };
+		07300F392202DD810014AAF4 /* YBImageBrowserTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageBrowserTipView.m; sourceTree = "<group>"; };
+		07300F3A2202DD810014AAF4 /* YBImageBrowserToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserToolBar.h; sourceTree = "<group>"; };
+		07300F3B2202DD810014AAF4 /* YBImageBrowserSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageBrowserSheetView.m; sourceTree = "<group>"; };
+		07300F3D2202DD810014AAF4 /* YBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImage.m; sourceTree = "<group>"; };
+		07300F3E2202DD810014AAF4 /* YBImageBrowseCellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageBrowseCellData.m; sourceTree = "<group>"; };
+		07300F3F2202DD810014AAF4 /* YBImageBrowseCellData+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBImageBrowseCellData+Internal.h"; sourceTree = "<group>"; };
+		07300F402202DD810014AAF4 /* YBImageBrowseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowseCell.h; sourceTree = "<group>"; };
+		07300F412202DD810014AAF4 /* YBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImage.h; sourceTree = "<group>"; };
+		07300F422202DD810014AAF4 /* YBImageBrowseCellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowseCellData.h; sourceTree = "<group>"; };
+		07300F432202DD810014AAF4 /* YBImageBrowseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageBrowseCell.m; sourceTree = "<group>"; };
+		07300F452202DD810014AAF4 /* YBIBFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBIBFileManager.h; sourceTree = "<group>"; };
+		07300F462202DD810014AAF4 /* YBIBLayoutDirectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBIBLayoutDirectionManager.h; sourceTree = "<group>"; };
+		07300F472202DD810014AAF4 /* YBIBCopywriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBIBCopywriter.h; sourceTree = "<group>"; };
+		07300F482202DD810014AAF4 /* YBIBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBIBUtilities.h; sourceTree = "<group>"; };
+		07300F492202DD810014AAF4 /* YBIBWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBIBWebImageManager.m; sourceTree = "<group>"; };
+		07300F4A2202DD810014AAF4 /* YBIBPhotoAlbumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBIBPhotoAlbumManager.h; sourceTree = "<group>"; };
+		07300F4B2202DD810014AAF4 /* YBIBTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBIBTransitionManager.h; sourceTree = "<group>"; };
+		07300F4C2202DD810014AAF4 /* YBIBGestureInteractionProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBIBGestureInteractionProfile.h; sourceTree = "<group>"; };
+		07300F4D2202DD810014AAF4 /* YBIBFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBIBFileManager.m; sourceTree = "<group>"; };
+		07300F4E2202DD810014AAF4 /* YBIBCopywriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBIBCopywriter.m; sourceTree = "<group>"; };
+		07300F4F2202DD810014AAF4 /* YBIBUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBIBUtilities.m; sourceTree = "<group>"; };
+		07300F502202DD810014AAF4 /* YBIBLayoutDirectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBIBLayoutDirectionManager.m; sourceTree = "<group>"; };
+		07300F512202DD810014AAF4 /* YBIBPhotoAlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBIBPhotoAlbumManager.m; sourceTree = "<group>"; };
+		07300F522202DD810014AAF4 /* YBIBWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBIBWebImageManager.h; sourceTree = "<group>"; };
+		07300F532202DD810014AAF4 /* YBIBTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBIBTransitionManager.m; sourceTree = "<group>"; };
+		07300F542202DD810014AAF4 /* YBIBGestureInteractionProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBIBGestureInteractionProfile.m; sourceTree = "<group>"; };
+		07300F562202DD810014AAF4 /* YBImageBrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageBrowserView.m; sourceTree = "<group>"; };
+		07300F572202DD810014AAF4 /* YBImageBrowser+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YBImageBrowser+Internal.h"; sourceTree = "<group>"; };
+		07300F582202DD810014AAF4 /* YBImageBrowserViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserViewLayout.h; sourceTree = "<group>"; };
+		07300F592202DD810014AAF4 /* YBImageBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowserView.h; sourceTree = "<group>"; };
+		07300F5A2202DD810014AAF4 /* YBImageBrowserViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBImageBrowserViewLayout.m; sourceTree = "<group>"; };
+		07300F5B2202DD810014AAF4 /* YBImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBImageBrowser.h; sourceTree = "<group>"; };
+		07300F5C2202DD810014AAF4 /* YBImageBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YBImageBrowser.bundle; sourceTree = "<group>"; };
 		3739A77DA9DEF4DABCA9432F /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleTests/Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		74BDCE3FFCE80F77F0E9906E /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		85CE0DD14E69E87604F1EF2E /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +259,7 @@
 		07300EB7220288FE0014AAF4 /* EPCommonKit */ = {
 			isa = PBXGroup;
 			children = (
+				07300F202202DD810014AAF4 /* YBImageBrowser */,
 				07300EB8220288FE0014AAF4 /* WMPageController */,
 				07300EC8220288FE0014AAF4 /* HXTagsView */,
 				07300ED3220288FE0014AAF4 /* KLTextView */,
@@ -283,6 +361,115 @@
 				07300EE8220288FE0014AAF4 /* LLFullScreenAdView.m */,
 			);
 			path = LLFullScreenAd;
+			sourceTree = "<group>";
+		};
+		07300F202202DD810014AAF4 /* YBImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				07300F212202DD810014AAF4 /* YBImageBrowser.m */,
+				07300F222202DD810014AAF4 /* Protocol */,
+				07300F292202DD810014AAF4 /* VideoBrowse */,
+				07300F332202DD810014AAF4 /* AuxiliaryView */,
+				07300F3C2202DD810014AAF4 /* ImageBrowse */,
+				07300F442202DD810014AAF4 /* Helper */,
+				07300F552202DD810014AAF4 /* Base */,
+				07300F5B2202DD810014AAF4 /* YBImageBrowser.h */,
+				07300F5C2202DD810014AAF4 /* YBImageBrowser.bundle */,
+			);
+			path = YBImageBrowser;
+			sourceTree = "<group>";
+		};
+		07300F222202DD810014AAF4 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				07300F232202DD810014AAF4 /* YBImageBrowserSheetViewProtocol.h */,
+				07300F242202DD810014AAF4 /* YBImageBrowserCellDataProtocol.h */,
+				07300F252202DD810014AAF4 /* YBImageBrowserToolBarProtocol.h */,
+				07300F262202DD810014AAF4 /* YBImageBrowserDataSource.h */,
+				07300F272202DD810014AAF4 /* YBImageBrowserCellProtocol.h */,
+				07300F282202DD810014AAF4 /* YBImageBrowserDelegate.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		07300F292202DD810014AAF4 /* VideoBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				07300F2A2202DD810014AAF4 /* YBVideoBrowseCell.m */,
+				07300F2B2202DD810014AAF4 /* YBVideoBrowseCellData.h */,
+				07300F2C2202DD810014AAF4 /* YBVideoBrowseActionBar.m */,
+				07300F2D2202DD810014AAF4 /* YBVideoBrowseTopBar.h */,
+				07300F2E2202DD810014AAF4 /* YBVideoBrowseCellData+Internal.h */,
+				07300F2F2202DD810014AAF4 /* YBVideoBrowseCell.h */,
+				07300F302202DD810014AAF4 /* YBVideoBrowseTopBar.m */,
+				07300F312202DD810014AAF4 /* YBVideoBrowseCellData.m */,
+				07300F322202DD810014AAF4 /* YBVideoBrowseActionBar.h */,
+			);
+			path = VideoBrowse;
+			sourceTree = "<group>";
+		};
+		07300F332202DD810014AAF4 /* AuxiliaryView */ = {
+			isa = PBXGroup;
+			children = (
+				07300F342202DD810014AAF4 /* YBImageBrowserProgressView.m */,
+				07300F352202DD810014AAF4 /* YBImageBrowserToolBar.m */,
+				07300F362202DD810014AAF4 /* YBImageBrowserTipView.h */,
+				07300F372202DD810014AAF4 /* YBImageBrowserSheetView.h */,
+				07300F382202DD810014AAF4 /* YBImageBrowserProgressView.h */,
+				07300F392202DD810014AAF4 /* YBImageBrowserTipView.m */,
+				07300F3A2202DD810014AAF4 /* YBImageBrowserToolBar.h */,
+				07300F3B2202DD810014AAF4 /* YBImageBrowserSheetView.m */,
+			);
+			path = AuxiliaryView;
+			sourceTree = "<group>";
+		};
+		07300F3C2202DD810014AAF4 /* ImageBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				07300F3D2202DD810014AAF4 /* YBImage.m */,
+				07300F3E2202DD810014AAF4 /* YBImageBrowseCellData.m */,
+				07300F3F2202DD810014AAF4 /* YBImageBrowseCellData+Internal.h */,
+				07300F402202DD810014AAF4 /* YBImageBrowseCell.h */,
+				07300F412202DD810014AAF4 /* YBImage.h */,
+				07300F422202DD810014AAF4 /* YBImageBrowseCellData.h */,
+				07300F432202DD810014AAF4 /* YBImageBrowseCell.m */,
+			);
+			path = ImageBrowse;
+			sourceTree = "<group>";
+		};
+		07300F442202DD810014AAF4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				07300F452202DD810014AAF4 /* YBIBFileManager.h */,
+				07300F462202DD810014AAF4 /* YBIBLayoutDirectionManager.h */,
+				07300F472202DD810014AAF4 /* YBIBCopywriter.h */,
+				07300F482202DD810014AAF4 /* YBIBUtilities.h */,
+				07300F492202DD810014AAF4 /* YBIBWebImageManager.m */,
+				07300F4A2202DD810014AAF4 /* YBIBPhotoAlbumManager.h */,
+				07300F4B2202DD810014AAF4 /* YBIBTransitionManager.h */,
+				07300F4C2202DD810014AAF4 /* YBIBGestureInteractionProfile.h */,
+				07300F4D2202DD810014AAF4 /* YBIBFileManager.m */,
+				07300F4E2202DD810014AAF4 /* YBIBCopywriter.m */,
+				07300F4F2202DD810014AAF4 /* YBIBUtilities.m */,
+				07300F502202DD810014AAF4 /* YBIBLayoutDirectionManager.m */,
+				07300F512202DD810014AAF4 /* YBIBPhotoAlbumManager.m */,
+				07300F522202DD810014AAF4 /* YBIBWebImageManager.h */,
+				07300F532202DD810014AAF4 /* YBIBTransitionManager.m */,
+				07300F542202DD810014AAF4 /* YBIBGestureInteractionProfile.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		07300F552202DD810014AAF4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				07300F562202DD810014AAF4 /* YBImageBrowserView.m */,
+				07300F572202DD810014AAF4 /* YBImageBrowser+Internal.h */,
+				07300F582202DD810014AAF4 /* YBImageBrowserViewLayout.h */,
+				07300F592202DD810014AAF4 /* YBImageBrowserView.h */,
+				07300F5A2202DD810014AAF4 /* YBImageBrowserViewLayout.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		67CB08BA7EB06108DBE88A3A /* Frameworks */ = {
@@ -390,6 +577,7 @@
 				07300EA0220287F30014AAF4 /* LaunchScreen.storyboard in Resources */,
 				07300E9D220287F30014AAF4 /* Assets.xcassets in Resources */,
 				07300E9B220287F20014AAF4 /* Main.storyboard in Resources */,
+				07300F732202DD810014AAF4 /* YBImageBrowser.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,30 +634,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07300F5F2202DD810014AAF4 /* YBVideoBrowseActionBar.m in Sources */,
 				07300EEC220288FE0014AAF4 /* WMMenuItem.m in Sources */,
 				07300EFC220288FE0014AAF4 /* TAAbstractDotView.m in Sources */,
+				07300F612202DD810014AAF4 /* YBVideoBrowseCellData.m in Sources */,
+				07300F722202DD810014AAF4 /* YBImageBrowserViewLayout.m in Sources */,
+				07300F6B2202DD810014AAF4 /* YBIBCopywriter.m in Sources */,
 				07300EEE220288FE0014AAF4 /* WMMenuView.m in Sources */,
+				07300F6A2202DD810014AAF4 /* YBIBFileManager.m in Sources */,
 				07300E98220287F20014AAF4 /* ViewController.m in Sources */,
+				07300F632202DD810014AAF4 /* YBImageBrowserToolBar.m in Sources */,
 				07300EF3220288FE0014AAF4 /* HXTagAttribute.m in Sources */,
 				07300EF4220288FE0014AAF4 /* HXTagCollectionViewFlowLayout.m in Sources */,
+				07300F6F2202DD810014AAF4 /* YBIBTransitionManager.m in Sources */,
 				07300EEA220288FE0014AAF4 /* WMPageController.m in Sources */,
+				07300F6C2202DD810014AAF4 /* YBIBUtilities.m in Sources */,
+				07300F662202DD810014AAF4 /* YBImage.m in Sources */,
 				07300EE9220288FE0014AAF4 /* WMPanGestureRecognizer.m in Sources */,
 				07300EA3220287F30014AAF4 /* main.m in Sources */,
 				07300EF2220288FE0014AAF4 /* HXTagsCell.m in Sources */,
 				07300EF9220288FE0014AAF4 /* TADotView.m in Sources */,
 				07300EFB220288FE0014AAF4 /* TAAnimatedDotView.m in Sources */,
+				07300F5E2202DD810014AAF4 /* YBVideoBrowseCell.m in Sources */,
 				07300EF8220288FE0014AAF4 /* SDCollectionViewCell.m in Sources */,
+				07300F682202DD810014AAF4 /* YBImageBrowseCell.m in Sources */,
 				07300E95220287F20014AAF4 /* AppDelegate.m in Sources */,
+				07300F602202DD810014AAF4 /* YBVideoBrowseTopBar.m in Sources */,
 				07300EF0220288FE0014AAF4 /* HXTagCollectionViewCell.m in Sources */,
+				07300F622202DD810014AAF4 /* YBImageBrowserProgressView.m in Sources */,
 				07300EEF220288FE0014AAF4 /* WMProgressView.m in Sources */,
+				07300F692202DD810014AAF4 /* YBIBWebImageManager.m in Sources */,
 				07300EFA220288FE0014AAF4 /* TAPageControl.m in Sources */,
+				07300F652202DD810014AAF4 /* YBImageBrowserSheetView.m in Sources */,
 				07300EF1220288FE0014AAF4 /* HXTagsView.m in Sources */,
 				07300EFD220288FE0014AAF4 /* LLFullScreenAdView.m in Sources */,
+				07300F6D2202DD810014AAF4 /* YBIBLayoutDirectionManager.m in Sources */,
 				07300EF7220288FE0014AAF4 /* UIView+SDExtension.m in Sources */,
 				07300EEB220288FE0014AAF4 /* UIViewController+WMPageController.m in Sources */,
+				07300F702202DD810014AAF4 /* YBIBGestureInteractionProfile.m in Sources */,
 				07300EF5220288FE0014AAF4 /* KLTextView.m in Sources */,
+				07300F642202DD810014AAF4 /* YBImageBrowserTipView.m in Sources */,
+				07300F5D2202DD810014AAF4 /* YBImageBrowser.m in Sources */,
+				07300F6E2202DD810014AAF4 /* YBIBPhotoAlbumManager.m in Sources */,
 				07300EED220288FE0014AAF4 /* WMScrollView.m in Sources */,
 				07300EF6220288FE0014AAF4 /* SDCycleScrollView.m in Sources */,
+				07300F672202DD810014AAF4 /* YBImageBrowseCellData.m in Sources */,
+				07300F712202DD810014AAF4 /* YBImageBrowserView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

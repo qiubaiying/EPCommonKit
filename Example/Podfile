@@ -8,7 +8,8 @@ target 'Example' do
   # 公有库
   pod 'AFNetworking', '~> 3.0'
   pod 'SDWebImage'
-
+  pod 'YYKit'
+  
   target 'ExampleTests' do
     inherit! :search_paths
     # Pods for testing
