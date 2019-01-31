@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # s.source = { :git => "https://github.com/xiaofei86/LPPushService.git", :tag => 1.0.0 }        #tag => 1.0.0 表示将这个Pod版本与Git仓库中某个版本的comit绑定
   # s.source = { :git => "https://github.com/xiaofei86/LPPushService.git", :tag => s.version }    #tag => s.version 表示将这个Pod版本与Git仓库中相同版本的comit绑定
 
-  s.source_files = "EPCommonKit/*.{h,m}", "EPCommonKit/**/*.{h,m}"
+  # s.source_files = "EPCommonKit/*.{h,m}", "EPCommonKit/**/*.{h,m}"
   # “*” 表示匹配所有文件
   # “*.{h,m}” 表示匹配所有以.h和.m结尾的文件
   # “**” 表示匹配所有子目录
