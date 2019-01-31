@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.dependency 'SDWebImage'
 
   s.subspec 'HXTagsView' do |ss|
-    ss.source_files = 'EPCommonKit/HXTagsView.{h,m}'
+    ss.source_files = 'EPCommonKit/HXTagsView/*.{h,m}'
   end
 
   # User
