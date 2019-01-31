@@ -57,11 +57,33 @@ Pod::Spec.new do |s|
       sss.source_files = 'EPCommonKit/WMPageController/WMMenuView/*.{h,m}'
     end
   end
-
-
-
   
+  # 创建 EPCommonKit/YBImageBrowser 文件夹
+  s.subspec 'YBImageBrowser' do |ss|
+    # YBImageBrowser文件夹下包含的文件
+    ss.source_files = 'EPCommonKit/YBImageBrowser/*.{h,m}'
+    # 其他资源文件
+    s.resources = "EPCommonKit/YBImageBrowser/YBImageBrowser.bundle"
+    # 子文件
+    ss.subspec 'AuxiliaryView' do |sss|
+      sss.source_files = 'EPCommonKit/YBImageBrowser/AuxiliaryView/*.{h,m}'
+    end
+    ss.subspec 'Base' do |sss|
+      sss.source_files = 'EPCommonKit/YBImageBrowser/Base/*.{h,m}'
+    end
+    ss.subspec 'Helper' do |sss|
+      sss.source_files = 'EPCommonKit/YBImageBrowser/Helper/*.{h,m}'
+    end
+    ss.subspec 'ImageBrowse' do |sss|
+      sss.source_files = 'EPCommonKit/YBImageBrowser/ImageBrowse/*.{h,m}'
+    end
+    ss.subspec 'Protocol' do |sss|
+      sss.source_files = 'EPCommonKit/YBImageBrowser/Protocol/*.{h,m}'
+    end
+    ss.subspec 'VideoBrowse' do |sss|
+      sss.source_files = 'EPCommonKit/YBImageBrowser/VideoBrowse/*.{h,m}'
+    end
+  end
 
-  
 
 end
