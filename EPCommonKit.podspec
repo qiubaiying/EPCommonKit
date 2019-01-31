@@ -62,7 +62,7 @@ Pod::Spec.new do |s|
   # 创建 EPCommonKit/YBImageBrowser 文件夹
   s.subspec 'YBImageBrowser' do |ss|
     # YBImageBrowser文件夹下包含的文件
-    ss.source_files = 'EPCommonKit/YBImageBrowser/*.{h,m}', "EPCommonKit/YBImageBrowser/YBImageBrowser.bundle"
+    ss.source_files = 'EPCommonKit/YBImageBrowser/*.{h,m}', "EPCommonKit/YBImageBrowser/*.bundle"
     ss.subspec 'AuxiliaryView' do |sss|
       sss.source_files = 'EPCommonKit/YBImageBrowser/AuxiliaryView/*.{h,m}'
     end
