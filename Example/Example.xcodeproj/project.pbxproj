@@ -14,6 +14,29 @@
 		07300EA0220287F30014AAF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07300E9E220287F30014AAF4 /* LaunchScreen.storyboard */; };
 		07300EA3220287F30014AAF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EA2220287F30014AAF4 /* main.m */; };
 		07300EAD220287F30014AAF4 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EAC220287F30014AAF4 /* ExampleTests.m */; };
+		07300EE9220288FE0014AAF4 /* WMPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EB9220288FE0014AAF4 /* WMPanGestureRecognizer.m */; };
+		07300EEA220288FE0014AAF4 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EBA220288FE0014AAF4 /* WMPageController.m */; };
+		07300EEB220288FE0014AAF4 /* UIViewController+WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EBB220288FE0014AAF4 /* UIViewController+WMPageController.m */; };
+		07300EEC220288FE0014AAF4 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EC1220288FE0014AAF4 /* WMMenuItem.m */; };
+		07300EED220288FE0014AAF4 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EC2220288FE0014AAF4 /* WMScrollView.m */; };
+		07300EEE220288FE0014AAF4 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EC3220288FE0014AAF4 /* WMMenuView.m */; };
+		07300EEF220288FE0014AAF4 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EC4220288FE0014AAF4 /* WMProgressView.m */; };
+		07300EF0220288FE0014AAF4 /* HXTagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EC9220288FE0014AAF4 /* HXTagCollectionViewCell.m */; };
+		07300EF1220288FE0014AAF4 /* HXTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300ECB220288FE0014AAF4 /* HXTagsView.m */; };
+		07300EF2220288FE0014AAF4 /* HXTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300ECC220288FE0014AAF4 /* HXTagsCell.m */; };
+		07300EF3220288FE0014AAF4 /* HXTagAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300ECE220288FE0014AAF4 /* HXTagAttribute.m */; };
+		07300EF4220288FE0014AAF4 /* HXTagCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300ED1220288FE0014AAF4 /* HXTagCollectionViewFlowLayout.m */; };
+		07300EF5220288FE0014AAF4 /* KLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300ED5220288FE0014AAF4 /* KLTextView.m */; };
+		07300EF6220288FE0014AAF4 /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EDA220288FE0014AAF4 /* SDCycleScrollView.m */; };
+		07300EF7220288FE0014AAF4 /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EDB220288FE0014AAF4 /* UIView+SDExtension.m */; };
+		07300EF8220288FE0014AAF4 /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EDC220288FE0014AAF4 /* SDCollectionViewCell.m */; };
+		07300EF9220288FE0014AAF4 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EDF220288FE0014AAF4 /* TADotView.m */; };
+		07300EFA220288FE0014AAF4 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EE0220288FE0014AAF4 /* TAPageControl.m */; };
+		07300EFB220288FE0014AAF4 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EE1220288FE0014AAF4 /* TAAnimatedDotView.m */; };
+		07300EFC220288FE0014AAF4 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EE2220288FE0014AAF4 /* TAAbstractDotView.m */; };
+		07300EFD220288FE0014AAF4 /* LLFullScreenAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07300EE8220288FE0014AAF4 /* LLFullScreenAdView.m */; };
+		4808C58BE5E12F46BE112313 /* libPods-ExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C3D3499A8B71D4BF73B6B8 /* libPods-ExampleTests.a */; };
+		F693B9599899288E09E2B050 /* libPods-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90696F5A89B593D57BCBF6E3 /* libPods-Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C3D3499A8B71D4BF73B6B8 /* libPods-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07300E90220287F20014AAF4 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07300E93220287F20014AAF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07300E94220287F20014AAF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +64,53 @@
 		07300EA8220287F30014AAF4 /* ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07300EAC220287F30014AAF4 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
 		07300EAE220287F30014AAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07300EB9220288FE0014AAF4 /* WMPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPanGestureRecognizer.m; sourceTree = "<group>"; };
+		07300EBA220288FE0014AAF4 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
+		07300EBB220288FE0014AAF4 /* UIViewController+WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WMPageController.m"; sourceTree = "<group>"; };
+		07300EBD220288FE0014AAF4 /* WMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
+		07300EBE220288FE0014AAF4 /* WMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
+		07300EBF220288FE0014AAF4 /* WMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
+		07300EC0220288FE0014AAF4 /* WMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
+		07300EC1220288FE0014AAF4 /* WMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
+		07300EC2220288FE0014AAF4 /* WMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMScrollView.m; sourceTree = "<group>"; };
+		07300EC3220288FE0014AAF4 /* WMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
+		07300EC4220288FE0014AAF4 /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
+		07300EC5220288FE0014AAF4 /* WMPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPanGestureRecognizer.h; sourceTree = "<group>"; };
+		07300EC6220288FE0014AAF4 /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
+		07300EC7220288FE0014AAF4 /* UIViewController+WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WMPageController.h"; sourceTree = "<group>"; };
+		07300EC9220288FE0014AAF4 /* HXTagCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagCollectionViewCell.m; sourceTree = "<group>"; };
+		07300ECA220288FE0014AAF4 /* HXTagAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagAttribute.h; sourceTree = "<group>"; };
+		07300ECB220288FE0014AAF4 /* HXTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagsView.m; sourceTree = "<group>"; };
+		07300ECC220288FE0014AAF4 /* HXTagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagsCell.m; sourceTree = "<group>"; };
+		07300ECD220288FE0014AAF4 /* HXTagCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		07300ECE220288FE0014AAF4 /* HXTagAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagAttribute.m; sourceTree = "<group>"; };
+		07300ECF220288FE0014AAF4 /* HXTagCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagCollectionViewCell.h; sourceTree = "<group>"; };
+		07300ED0220288FE0014AAF4 /* HXTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagsView.h; sourceTree = "<group>"; };
+		07300ED1220288FE0014AAF4 /* HXTagCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		07300ED2220288FE0014AAF4 /* HXTagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagsCell.h; sourceTree = "<group>"; };
+		07300ED4220288FE0014AAF4 /* KLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTextView.h; sourceTree = "<group>"; };
+		07300ED5220288FE0014AAF4 /* KLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTextView.m; sourceTree = "<group>"; };
+		07300ED7220288FE0014AAF4 /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		07300ED8220288FE0014AAF4 /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		07300ED9220288FE0014AAF4 /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		07300EDA220288FE0014AAF4 /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		07300EDB220288FE0014AAF4 /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		07300EDC220288FE0014AAF4 /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		07300EDE220288FE0014AAF4 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		07300EDF220288FE0014AAF4 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		07300EE0220288FE0014AAF4 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		07300EE1220288FE0014AAF4 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		07300EE2220288FE0014AAF4 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		07300EE3220288FE0014AAF4 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		07300EE4220288FE0014AAF4 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		07300EE5220288FE0014AAF4 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		07300EE7220288FE0014AAF4 /* LLFullScreenAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFullScreenAdView.h; sourceTree = "<group>"; };
+		07300EE8220288FE0014AAF4 /* LLFullScreenAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFullScreenAdView.m; sourceTree = "<group>"; };
+		3739A77DA9DEF4DABCA9432F /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleTests/Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74BDCE3FFCE80F77F0E9906E /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		85CE0DD14E69E87604F1EF2E /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		90696F5A89B593D57BCBF6E3 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92300F27ED6804EF94F5CEEE /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleTests/Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F693B9599899288E09E2B050 /* libPods-Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4808C58BE5E12F46BE112313 /* libPods-ExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,9 +136,12 @@
 		07300E87220287F20014AAF4 = {
 			isa = PBXGroup;
 			children = (
+				07300EB7220288FE0014AAF4 /* EPCommonKit */,
 				07300E92220287F20014AAF4 /* Example */,
 				07300EAB220287F30014AAF4 /* ExampleTests */,
 				07300E91220287F20014AAF4 /* Products */,
+				D99FC95C43FA7557D68D5D31 /* Pods */,
+				67CB08BA7EB06108DBE88A3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +179,132 @@
 			path = ExampleTests;
 			sourceTree = "<group>";
 		};
+		07300EB7220288FE0014AAF4 /* EPCommonKit */ = {
+			isa = PBXGroup;
+			children = (
+				07300EB8220288FE0014AAF4 /* WMPageController */,
+				07300EC8220288FE0014AAF4 /* HXTagsView */,
+				07300ED3220288FE0014AAF4 /* KLTextView */,
+				07300ED6220288FE0014AAF4 /* SDCycleScrollView */,
+				07300EE6220288FE0014AAF4 /* LLFullScreenAd */,
+			);
+			name = EPCommonKit;
+			path = ../EPCommonKit;
+			sourceTree = "<group>";
+		};
+		07300EB8220288FE0014AAF4 /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				07300EBC220288FE0014AAF4 /* WMMenuView */,
+				07300EB9220288FE0014AAF4 /* WMPanGestureRecognizer.m */,
+				07300EBA220288FE0014AAF4 /* WMPageController.m */,
+				07300EBB220288FE0014AAF4 /* UIViewController+WMPageController.m */,
+				07300EC5220288FE0014AAF4 /* WMPanGestureRecognizer.h */,
+				07300EC6220288FE0014AAF4 /* WMPageController.h */,
+				07300EC7220288FE0014AAF4 /* UIViewController+WMPageController.h */,
+			);
+			path = WMPageController;
+			sourceTree = "<group>";
+		};
+		07300EBC220288FE0014AAF4 /* WMMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				07300EBD220288FE0014AAF4 /* WMScrollView.h */,
+				07300EBE220288FE0014AAF4 /* WMMenuItem.h */,
+				07300EBF220288FE0014AAF4 /* WMMenuView.h */,
+				07300EC0220288FE0014AAF4 /* WMProgressView.h */,
+				07300EC1220288FE0014AAF4 /* WMMenuItem.m */,
+				07300EC2220288FE0014AAF4 /* WMScrollView.m */,
+				07300EC3220288FE0014AAF4 /* WMMenuView.m */,
+				07300EC4220288FE0014AAF4 /* WMProgressView.m */,
+			);
+			path = WMMenuView;
+			sourceTree = "<group>";
+		};
+		07300EC8220288FE0014AAF4 /* HXTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				07300EC9220288FE0014AAF4 /* HXTagCollectionViewCell.m */,
+				07300ECA220288FE0014AAF4 /* HXTagAttribute.h */,
+				07300ECB220288FE0014AAF4 /* HXTagsView.m */,
+				07300ECC220288FE0014AAF4 /* HXTagsCell.m */,
+				07300ECD220288FE0014AAF4 /* HXTagCollectionViewFlowLayout.h */,
+				07300ECE220288FE0014AAF4 /* HXTagAttribute.m */,
+				07300ECF220288FE0014AAF4 /* HXTagCollectionViewCell.h */,
+				07300ED0220288FE0014AAF4 /* HXTagsView.h */,
+				07300ED1220288FE0014AAF4 /* HXTagCollectionViewFlowLayout.m */,
+				07300ED2220288FE0014AAF4 /* HXTagsCell.h */,
+			);
+			path = HXTagsView;
+			sourceTree = "<group>";
+		};
+		07300ED3220288FE0014AAF4 /* KLTextView */ = {
+			isa = PBXGroup;
+			children = (
+				07300ED4220288FE0014AAF4 /* KLTextView.h */,
+				07300ED5220288FE0014AAF4 /* KLTextView.m */,
+			);
+			path = KLTextView;
+			sourceTree = "<group>";
+		};
+		07300ED6220288FE0014AAF4 /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				07300ED7220288FE0014AAF4 /* UIView+SDExtension.h */,
+				07300ED8220288FE0014AAF4 /* SDCycleScrollView.h */,
+				07300ED9220288FE0014AAF4 /* SDCollectionViewCell.h */,
+				07300EDA220288FE0014AAF4 /* SDCycleScrollView.m */,
+				07300EDB220288FE0014AAF4 /* UIView+SDExtension.m */,
+				07300EDC220288FE0014AAF4 /* SDCollectionViewCell.m */,
+				07300EDD220288FE0014AAF4 /* PageControl */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		07300EDD220288FE0014AAF4 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				07300EDE220288FE0014AAF4 /* TAAbstractDotView.h */,
+				07300EDF220288FE0014AAF4 /* TADotView.m */,
+				07300EE0220288FE0014AAF4 /* TAPageControl.m */,
+				07300EE1220288FE0014AAF4 /* TAAnimatedDotView.m */,
+				07300EE2220288FE0014AAF4 /* TAAbstractDotView.m */,
+				07300EE3220288FE0014AAF4 /* TADotView.h */,
+				07300EE4220288FE0014AAF4 /* TAAnimatedDotView.h */,
+				07300EE5220288FE0014AAF4 /* TAPageControl.h */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		07300EE6220288FE0014AAF4 /* LLFullScreenAd */ = {
+			isa = PBXGroup;
+			children = (
+				07300EE7220288FE0014AAF4 /* LLFullScreenAdView.h */,
+				07300EE8220288FE0014AAF4 /* LLFullScreenAdView.m */,
+			);
+			path = LLFullScreenAd;
+			sourceTree = "<group>";
+		};
+		67CB08BA7EB06108DBE88A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90696F5A89B593D57BCBF6E3 /* libPods-Example.a */,
+				04C3D3499A8B71D4BF73B6B8 /* libPods-ExampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D99FC95C43FA7557D68D5D31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74BDCE3FFCE80F77F0E9906E /* Pods-Example.debug.xcconfig */,
+				85CE0DD14E69E87604F1EF2E /* Pods-Example.release.xcconfig */,
+				3739A77DA9DEF4DABCA9432F /* Pods-ExampleTests.debug.xcconfig */,
+				92300F27ED6804EF94F5CEEE /* Pods-ExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,6 +312,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07300EB1220287F30014AAF4 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
+				1B304D6D8575011A3EC2850F /* [CP] Check Pods Manifest.lock */,
 				07300E8C220287F20014AAF4 /* Sources */,
 				07300E8D220287F20014AAF4 /* Frameworks */,
 				07300E8E220287F20014AAF4 /* Resources */,
@@ -127,6 +330,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07300EB4220287F30014AAF4 /* Build configuration list for PBXNativeTarget "ExampleTests" */;
 			buildPhases = (
+				2E4F46A4EA9DF09AE2C0AD6B /* [CP] Check Pods Manifest.lock */,
 				07300EA4220287F30014AAF4 /* Sources */,
 				07300EA5220287F30014AAF4 /* Frameworks */,
 				07300EA6220287F30014AAF4 /* Resources */,
@@ -198,14 +402,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B304D6D8575011A3EC2850F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E4F46A4EA9DF09AE2C0AD6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		07300E8C220287F20014AAF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07300EEC220288FE0014AAF4 /* WMMenuItem.m in Sources */,
+				07300EFC220288FE0014AAF4 /* TAAbstractDotView.m in Sources */,
+				07300EEE220288FE0014AAF4 /* WMMenuView.m in Sources */,
 				07300E98220287F20014AAF4 /* ViewController.m in Sources */,
+				07300EF3220288FE0014AAF4 /* HXTagAttribute.m in Sources */,
+				07300EF4220288FE0014AAF4 /* HXTagCollectionViewFlowLayout.m in Sources */,
+				07300EEA220288FE0014AAF4 /* WMPageController.m in Sources */,
+				07300EE9220288FE0014AAF4 /* WMPanGestureRecognizer.m in Sources */,
 				07300EA3220287F30014AAF4 /* main.m in Sources */,
+				07300EF2220288FE0014AAF4 /* HXTagsCell.m in Sources */,
+				07300EF9220288FE0014AAF4 /* TADotView.m in Sources */,
+				07300EFB220288FE0014AAF4 /* TAAnimatedDotView.m in Sources */,
+				07300EF8220288FE0014AAF4 /* SDCollectionViewCell.m in Sources */,
 				07300E95220287F20014AAF4 /* AppDelegate.m in Sources */,
+				07300EF0220288FE0014AAF4 /* HXTagCollectionViewCell.m in Sources */,
+				07300EEF220288FE0014AAF4 /* WMProgressView.m in Sources */,
+				07300EFA220288FE0014AAF4 /* TAPageControl.m in Sources */,
+				07300EF1220288FE0014AAF4 /* HXTagsView.m in Sources */,
+				07300EFD220288FE0014AAF4 /* LLFullScreenAdView.m in Sources */,
+				07300EF7220288FE0014AAF4 /* UIView+SDExtension.m in Sources */,
+				07300EEB220288FE0014AAF4 /* UIViewController+WMPageController.m in Sources */,
+				07300EF5220288FE0014AAF4 /* KLTextView.m in Sources */,
+				07300EED220288FE0014AAF4 /* WMScrollView.m in Sources */,
+				07300EF6220288FE0014AAF4 /* SDCycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,10 +625,12 @@
 		};
 		07300EB2220287F30014AAF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74BDCE3FFCE80F77F0E9906E /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,10 +643,12 @@
 		};
 		07300EB3220287F30014AAF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CE0DD14E69E87604F1EF2E /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -393,6 +661,7 @@
 		};
 		07300EB5220287F30014AAF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3739A77DA9DEF4DABCA9432F /* Pods-ExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -411,6 +680,7 @@
 		};
 		07300EB6220287F30014AAF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92300F27ED6804EF94F5CEEE /* Pods-ExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
