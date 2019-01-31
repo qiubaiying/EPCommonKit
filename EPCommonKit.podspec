@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
   # 依赖库
   s.dependency 'AFNetworking' 
   s.dependency 'SDWebImage'
+  s.dependency 'YYKit'
 
 
   # 根据库创建文件夹
