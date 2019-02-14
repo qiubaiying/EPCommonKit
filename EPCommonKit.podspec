@@ -88,6 +88,12 @@ Pod::Spec.new do |s|
     ss.source_files = 'EPCommonKit/ScrollViewEmpty/*.{h,m}', 'EPCommonKit/ScrollViewEmpty/**/*.{h,m}', 'EPCommonKit/ScrollViewEmpty/scrollviewEmptyImage.xcassets'
   end
 
+  s.subspec 'UINavigation+SXFixSpace' do |ss|
+    ss.source_files = 'EPCommonKit/UINavigation+SXFixSpace/*.{h,m}'
+  end
+
+  
+
 
 
 end
