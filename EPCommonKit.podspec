@@ -85,8 +85,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'ScrollViewEmpty' do |ss|
-    s.resources = "EPCommonKit/ScrollViewEmpty/scrollviewEmptyImage.xcassets"
-    ss.source_files = 'EPCommonKit/ScrollViewEmpty/*.{h,m}', 'EPCommonKit/ScrollViewEmpty/**/*.{h,m}'
+    ss.source_files = 'EPCommonKit/ScrollViewEmpty/*.{h,m}', 'EPCommonKit/ScrollViewEmpty/**/*.{h,m}', 'EPCommonKit/ScrollViewEmpty/scrollviewEmptyImage.xcassets'
   end
 
 
